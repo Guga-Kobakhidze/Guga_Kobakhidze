@@ -1,0 +1,44 @@
+[
+  {
+    "image": "assets/images/trending1.png",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "2m ago"
+  },
+  {
+    "image": "assets/images/trending2.png",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "1h ago"
+  },
+  {
+    "image": "assets/images/trending3.png",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "3h ago"
+  },
+  {
+    "image": "assets/images/trending4.jpg",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "5h ago"
+  },
+  {
+    "image": "assets/images/trending5.jpg",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "6h ago"
+  },
+  {
+    "image": "assets/images/trending6.jpg",
+    "title": "Dolore magna aliqua",
+    "description": "Lorem ipsum dolor sit amet, ipsum labitur ",
+    "icon": "<i class='fa-regular fa-clock'></i>",
+    "time": "7h ago"
+  }
+]

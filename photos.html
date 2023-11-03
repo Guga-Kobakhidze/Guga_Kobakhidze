@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="popUp">
+      <div class="close_popUp">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <img class="popUp_img" src="" alt="img" />
+      <h3>user</h3>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <!-- Header -->
+    <header class="header" id="p-header">
+      <nav class="header_content">
+        <a href="index.html" class="goback_btn"
+          ><img src="assets/images/Arrow-Back.png" alt=""
+        /></a>
+        <a href="index.html" class="logo">LOGO</a>
+        <div class="navigation">
+          <ul class="nav-menu">
+            <a href="index.html" class="logo">LOGO</a>
+            <li>
+              <a class="nav-link" href="index.html"
+                ><span><i class="fa-solid fa-house"></i></span>HOME</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="discovery.html"
+                ><span><i class="fa-solid fa-compass"></i></span>DISCOVERY</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="photos.html"
+                ><span><i class="fa-regular fa-image"></i></span>PHOTOS</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#"
+                ><span><i class="fa-solid fa-envelope"></i></span>CONTACT</a
+              >
+            </li>
+            <li>
+              <a class="nav-link user-link" href="#">
+                <img src="assets/images/avatar1.png" alt="avatar" />
+                <span>PROFILE</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="filter_menu">
+          <img src="assets/images/filter.png" alt="filter" />
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="main" id="p-main">
+      <!-- API Section -->
+      <section class="section api_section">
+        <div class="container">
+          <div class="story_content">
+            <div class="story_href">
+              <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+              </a>
+              <span>/</span>
+              <h4>Photos</h4>
+            </div>
+            <div class="filter_menu story_filter">
+              <img src="assets/images/filter.png" alt="filter" />
+            </div>
+          </div>
+          <!-- here is API JSON Data -->
+          <div class="api_content"></div>
+          <div class="buttons">
+            <a href="#p-main" class="prev_button">prev</a>
+            <a href="#p-main" class="next_button">Next</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" id="p-footer">
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_menus">
+            <div class="footer_logo">
+              <a href="index.html" class="logo">LOGO</a>
+            </div>
+            <ul class="footer_mainMenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Discovery</a></li>
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+              <li><a class="nav-link" href="#">About</a></li>
+              <li><a class="nav-link" href="#">Help</a></li>
+              <li><a class="nav-link" href="#">Terms</a></li>
+              <li><a class="nav-link" href="#">Guidlines</a></li>
+            </ul>
+            <ul>
+              <li><a class="nav-link" href="#">Testimonials</a></li>
+              <li><a class="nav-link" href="#">Advertise</a></li>
+              <li><a class="nav-link" href="#">Integrations</a></li>
+              <li><a class="nav-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer_contact">
+            <div class="footer_form">
+              <form id="email-form" action="index.html">
+                <div class="input">
+                  <input
+                    id="email"
+                    type="text"
+                    name="email"
+                    placeholder="Email"
+                  />
+                  <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+                <label class="label" for="email"
+                  >Stay in touch with us for the freshest products!</label
+                >
+              </form>
+            </div>
+            <div class="footer_social">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/API.js"></script>
+  </body>
+</html>
