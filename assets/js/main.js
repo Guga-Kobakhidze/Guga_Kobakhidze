@@ -41,9 +41,16 @@ navLinks.forEach((link) => {
 const currentLocation = window.location.href;
 
 navLinks.forEach((link) => {
-  if (link.href !== currentLocation) {
-    link.classList.remove("active");
-  } else {
+  link.addEventListener("click", () => {
+    navLinks.forEach((otherLink) => {
+      if (otherLink !== link) {
+        otherLink.classList.remove("active");
+      }
+    });
+    link.classList.add("active");
+  });
+
+  if (link.href === currentLocation) {
     link.classList.add("active");
   }
 });
