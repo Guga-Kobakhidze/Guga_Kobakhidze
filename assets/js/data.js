@@ -42,7 +42,7 @@ const getAllCards = (img, title, desc, icon, time) => {
 async function getMyData() {
   try {
     const container = document.querySelector(".trending_cards");
-    const rawCards = await fetch("data.json");
+    const rawCards = await fetch("./assets/datas/data.json");
     if (!rawCards.ok) {
       throw "Error!";
     }
