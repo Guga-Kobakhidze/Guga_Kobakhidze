@@ -165,12 +165,12 @@
   }
   .navigation {
     top: 0;
-    height: 60%;
+    height: 100%;
     background-color: #f6f8f9;
   }
   .footer_content {
     bottom: 0;
-    height: 40%;
+    height: 45%;
     background-color: #b3b5b6;
   }
   .navigation::before,
@@ -193,13 +193,16 @@
     flex-direction: column;
     align-items: start;
     gap: 30px;
-    padding: 38px 0 0 40px;
+    padding: 30px 0 0 40px;
   }
   .nav-menu a span,
   .nav-menu .logo,
   #burgerMenu,
   .mobile_avatar {
     display: block;
+  }
+  .nav-menu .logo {
+    margin-bottom: 40px;
   }
   .user-link {
     padding: 0;
@@ -221,7 +224,7 @@
     padding: 0;
   }
   .footer_content .footer_menus {
-    padding: 58px 0 0 40px;
+    padding: 40px 0 0 40px;
     width: 100%;
   }
   .footer_content .footer_menus ul {
