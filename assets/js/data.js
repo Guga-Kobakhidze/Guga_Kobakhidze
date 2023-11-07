@@ -77,9 +77,13 @@ function slider() {
   window.addEventListener("resize", () => {
     if (window.innerWidth < 768) {
       return (scrollStep = 367);
-    } else if (window.innerWidth >= 768 && window.innerWidth <= 1023) {
+    }
+
+    if (window.innerWidth >= 768 && window.innerWidth < 1023) {
       return (scrollStep = 324);
-    } else {
+    }
+
+    if (window.innerWidth >= 1023) {
       return (scrollStep = 400);
     }
   });
